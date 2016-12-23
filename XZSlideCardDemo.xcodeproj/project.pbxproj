@@ -13,6 +13,7 @@
 		970CB93B1E0BBE5D00E2C813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970CB9391E0BBE5D00E2C813 /* Main.storyboard */; };
 		970CB93D1E0BBE5D00E2C813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970CB93C1E0BBE5D00E2C813 /* Assets.xcassets */; };
 		970CB9401E0BBE5D00E2C813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970CB93E1E0BBE5D00E2C813 /* LaunchScreen.storyboard */; };
+		970CB9491E0BBF1600E2C813 /* XZCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 970CB9481E0BBF1600E2C813 /* XZCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		970CB93C1E0BBE5D00E2C813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		970CB93F1E0BBE5D00E2C813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		970CB9411E0BBE5D00E2C813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		970CB9471E0BBF1600E2C813 /* XZCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCardView.h; sourceTree = "<group>"; };
+		970CB9481E0BBF1600E2C813 /* XZCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				970CB9331E0BBE5D00E2C813 /* AppDelegate.h */,
 				970CB9341E0BBE5D00E2C813 /* AppDelegate.m */,
+				970CB9471E0BBF1600E2C813 /* XZCardView.h */,
+				970CB9481E0BBF1600E2C813 /* XZCardView.m */,
 				970CB9361E0BBE5D00E2C813 /* ViewController.h */,
 				970CB9371E0BBE5D00E2C813 /* ViewController.m */,
 				970CB9391E0BBE5D00E2C813 /* Main.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				970CB9381E0BBE5D00E2C813 /* ViewController.m in Sources */,
 				970CB9351E0BBE5D00E2C813 /* AppDelegate.m in Sources */,
+				970CB9491E0BBF1600E2C813 /* XZCardView.m in Sources */,
 				970CB9321E0BBE5D00E2C813 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4KL3S3ZYGZ;
 				INFOPLIST_FILE = XZSlideCardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codeLocker.XZSlideCardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4KL3S3ZYGZ;
 				INFOPLIST_FILE = XZSlideCardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codeLocker.XZSlideCardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +320,7 @@
 				970CB9461E0BBE5D00E2C813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
